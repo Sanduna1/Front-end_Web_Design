@@ -1,0 +1,139 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    overflow-x: hidden;
+}
+/*booking section*/
+
+#booking{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#booking_form{
+    position: absolute;
+    margin-top: 120px;
+    background-color: rgba(255,255,255,0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 80%;   
+}
+#booking_form h2{
+    text-align: center;
+    font-family: serif;
+    color: red;
+    font-weight:bolder;
+}
+#booking_form form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#booking_form input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+select{
+    padding: 5px;
+}
+#booking_form button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: navy;
+    color: azure;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#booking_form button:hover{
+    background-color: blue;
+}
+
+#booking::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(Resources_Pic/accomo.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: brightness(25%);
+
+}
+
+
+
+/*header section*/
+#header{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 70px;
+    line-height: 70px;
+}
+#logo{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 880px;
+
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(0, 0,0,0.5);
+}
+#navbar ul{
+    display: flex;
+    
+}
+#navbar ul li{
+    list-style: none;
+    padding: 3px 15px 3px 15px;
+    
+}
+#navbar ul li:hover,#mobile_menu ul li:hover{
+    background: red;
+    cursor: pointer;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+} 
+
+/*footer section*/
+
+#footer{
+    background-color: #292929;
+    padding: 20px;
+    position: relative;
+    margin-top: 570px;
+    
+}
+#footer h5{
+    text-align: center;
+    color: orange;
+}
+#footer h5 a{
+    color: #fff;
+    text-decoration: none;
+}

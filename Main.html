@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <!--google fonts-->
+    <meta name="viewpoint" content="width=device-width,initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="pg01.css"> 
+    
+    <title>Restaurant</title> 
+</head>
+<body class="">
+    
+    <!--name section-->
+    <div id="name">
+        <div id="name_content">
+            <h1>Kingfisher Lake Resort Tissamaharama</h1>
+            <h2>Foods and Accommodations</h2>
+            <a href="#menu">Menu</a>
+        </div>
+    </div>
+
+    <!--header section-->
+    <div id="header">
+        <nav id="navbar">
+            
+            <div id="logo">
+                <img src="Resources_Pic/logo.png" alt="" width="130px" height="70px">
+            </div>
+            <ul>
+                <li><a href="#name">HOME</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="accomodation.html">ACCOMMODATIONS</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                
+                
+            </ul>
+            <div>
+                <a href="log.html"><button type="submit" id="log">Login</button></a></div>
+               
+            <div id="search">
+                <input id="srch" type="search" placeholder="Type to search">
+                <a href="#"><button class="btn">Search</button></a>
+            </div>
+            <div class="icon_cart">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+                </svg>
+                <span>0</span>
+                  
+            </div>
+            
+             
+        </nav>
+
+        <!---cart section-->
+        <div class="cartTab">
+            <h1>Food Cart</h1>
+            <div class="listcart">
+                <div class="item">
+                    <div class="cart_image">
+                        <img src="Resources_Pic/rice.jpg" alt="">
+                    </div>
+                    <div class="item_name">
+                        NAME
+                    </div>
+                    <div class="Totalprice">
+                        $2000
+                    </div>
+                    <div class="quantity">
+                        <span class="minus"><</span>
+                        <span>1</span>
+                        <span class="plus">></span>
+                    </div>
+                    
+                </div>
+
+
+            </div>
+            <div class="cartBtn">
+                <button class="close">CLOSE</button>
+                <button class="checkout">CHECK OUT</button>
+            </div>
+        </div>
+        <!--mobile menu function-->
+        <div id="mobile_menu">
+            <ul>
+                <li><a href="#name">HOME</a></li>
+                <li><a href="#menu">MENU</a></li>
+                <li><a href="accomodation.html">ACCOMMODATIONS</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--menu section begin-->
+    <div id="menu">
+        <h1 id="section">MENU</h1>
+    <div id="menu_row">
+        <div id="menu_col">
+            <h2>Fried Rice</h2>
+             <div class="box">
+                <div id="image">
+                    <img src="Resources_Pic/rice1.png">
+                </div>
+                <div id="ord">
+                    <h3>Egg Fried Rice</h3>
+                    <h4>Rs 800.00</h4>
+                    <button class="orbtn">ORDER</button>
+                    <button class="cabtn" onclick="this.innerHTML='Added to cart'">Add to cart</button>
+
+                </div>
+             </div>
+             <div class="box">
+                <div id="image">
+                    <img src="Resources_Pic/rice2.jpg">
+                </div>
+                <div id="ord">
+                    <h3>Chicken Fried Rice</h3>
+                    <h4>Rs 950.00</h4>
+                    <button class="orbtn">ORDER</button>
+                    <button class="cabtn" onclick="this.innerHTML='Added to cart'">Add to cart</button>
+
+                </div>
+             </div>
+             <div class="box">
+                <div id="image">
+                    <img src="Resources_Pic/rice3.jfif">
+                </div>
+                <div id="ord">
+                    <h3>Mixed Fried Rice</h3>
+                    <h4>Rs 1200.00</h4>
+                    <button class="orbtn">ORDER</button>
+                    <button class="cabtn" onclick="this.innerHTML='Added to cart'">Add to cart</button>
+
+                </div>
+             </div>
+             <div class="box">
+                <div id="image">
+                    <img src="Resources_Pic/rice4.jpg">
+                </div>
+                <div id="ord">
+                    <h3>Seafood Fried Rice</h3>
+                    <h4>Rs 1400.00</h4>
+                    <button class="orbtn">ORDER</button>
+                    <button class="cabtn" onclick="this.innerHTML='Added to cart'">Add to cart</button>
+                </div>
+             </div>
+        </div>
+        <div id="menu_col">
+            <h2>Biryani</h2>
+             <div class="box">
+                <div id="image">
+                    <img src="Resources_Pic/biryani1.JPG">
+                </div>
+                <div id="ord">
+                    <h3>Egg Biryani</h3>
+                    <h4>Rs 900.00</h4>
+                    <button class="orbtn">ORDER</button>
+                    <button class="cabtn" onclick="this.innerHTML='Added to cart'">Add to cart</button>
+                </div>
+             </div>
+             <div class="box">
+                <div id="image">
+                    <img src="Resources_Pic/biryani2.jfif">
+                </div>
+                <div id="ord">
+                    <h3>Chicken Biryani</h3>
+                    <h4>Rs 1200.00</h4>
+                    <button class="orbtn">ORDER</button>
+                    <button class="cabtn" onclick="this.innerHTML='Added to cart'">Add to cart</button>
+                </div>
+             </div>
+             <div class="box">
+                <div id="image">
+                    <img src="Resources_Pic/biryani3.webp">
+                </div>
+                <div id="ord">
+                    <h3>Mixed Biryani</h3>
+                    <h4>Rs 1400.00</h4>
+                    <button class="orbtn">ORDER</button>
+                    <button class="cabtn" onclick="this.innerHTML='Added to cart'">Add to cart</button>
+                </div>
+             </div>
+             <div class="box">
+                <div id="image">
+                    <img src="Resources_Pic/biryani4.jpg">
+                </div>
+                <div id="ord">
+                    <h3>Seafood Biryani</h3>
+                    <h4>Rs 1600.00</h4>
+                    <button class="orbtn">ORDER</button>
+                    <button class="cabtn" onclick="this.innerHTML='Added to cart'">Add to cart</button>
+                </div>
+             </div>
+        </div>
+        <div id="menu_col">
+            <h2>Kottu</h2>
+             <div class="box">
+                <div id="image">
+                    <img src="Resources_Pic/kottu1.jfif">
+                </div>
+                <div id="ord">
+                    <h3>Egg Kottu</h3>
+                    <h4>Rs 850.00</h4>
+                    <button class="orbtn">ORDER</button>
+                    <button class="cabtn" onclick="this.innerHTML='Added to cart'">Add to cart</button>
+                </div>
+             </div>
+             <div class="box">
+                <div id="image">
+                    <img src="Resources_Pic/kottu2.jfif">
+                </div>
+                <div id="ord">
+                    <h3>Chicken Kottu</h3>
+                    <h4>Rs 1100.00</h4>
+                    <button class="orbtn">ORDER</button>
+                    <button class="cabtn" onclick="this.innerHTML='Added to cart'">Add to cart</button>
+                </div>
+             </div>
+             <div class="box">
+                <div id="image">
+                    <img src="Resources_Pic/kottu3.jfif">
+                </div>
+                <div id="ord">
+                    <h3>Mixed Kottu</h3>
+                    <h4>Rs 1300.00</h4>
+                    <button class="orbtn">ORDER</button>
+                    <button class="cabtn" onclick="this.innerHTML='Added to cart'">Add to cart</button>
+                </div>
+             </div>
+             <div class="box">
+                <div id="image">
+                    <img src="Resources_Pic/kottu4.avif">
+                </div>
+                <div id="ord">
+                    <h3>Seafood Kottu</h3>
+                    <h4>Rs 1500.00</h4>
+                    <button class="orbtn">ORDER</button>
+                    <button class="cabtn" onclick="this.innerHTML='Added to cart'">Add to cart</button>
+                </div>
+             </div>
+        </div>
+        <div id="menu_col">
+            <h2>Deviled</h2>
+             <div class="box">
+                <div id="image">
+                    <img src="Resources_Pic/deviled1.jfif">
+                </div>
+                <div id="ord">
+                    <h3>Fish Deviled</h3>
+                    <h4>Rs 1000.00</h4>
+                    <button class="orbtn">ORDER</button>
+                    <button class="cabtn" onclick="this.innerHTML='Added to cart'">Add to cart</button>
+                </div>
+             </div>
+             <div class="box">
+                <div id="image">
+                    <img src="Resources_Pic/deviled2.jpg">
+                </div>
+                <div id="ord">
+                    <h3>Chicken Deviled</h3>
+                    <h4>Rs 1250.00</h4>
+                    <button class="orbtn">ORDER</button>
+                    <button class="cabtn" onclick="this.innerHTML='Added to cart'">Add to cart</button>
+                </div>
+             </div>
+             <div class="box">
+                <div id="image">
+                    <img src="Resources_Pic/deviled3.jpg">
+                </div>
+                <div id="ord">
+                    <h3>Seafood Deviled</h3>
+                    <h4>Rs 1450.00</h4>
+                    <button class="orbtn">ORDER</button>
+                    <button class="cabtn" onclick="this.innerHTML='Added to cart'">Add to cart</button>
+                </div>
+             </div>
+             <div class="box">
+                <div id="image">
+                    <img src="Resources_Pic/deviled4.jfif">
+                </div>
+                <div id="ord">
+                    <h3>Beef Deviled</h3>
+                    <h4>Rs 1350.00</h4>
+                    <button class="orbtn">ORDER</button>
+                    <button class="cabtn" onclick="this.innerHTML='Added to cart'">Add to cart</button>
+                </div>
+             </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!--about section-->
+
+    <div id="about">
+        <h1 id="section">About</h1>
+        <div id="about_row">
+            <div class="about_col">
+                <h2>About Us</h2>
+                <p>
+                    Welcome to Kingfisher Lake Resort, where culinary execellence and refined hospitality converge to create an umforgettable experience.
+                    Situated in the heart of Tissamaharama, Our establishment offers a harmonious fusion of delectable cuisine and luxurious accommodation.
+                    From our expertly curated menu showcasing locally sourced ingredients to our meticulously appointed rooms exuding comfort and style, 
+                    We strive to exceed your every expectation. Whether you're indulging in a gourmet meal in our inviting dining space or unwinding in the comfort
+                    of our elegantly designed accommodations, our dedicated team is committed to providing impeccable service and creating cherished memories for our
+                    guests. We are also committed to delivering the food and drinks you need. Join us at Kingfisher Lake Resort for a culinary journey and a stay that transcends the ordinary.
+                </p>
+            </div>
+            <div class="about_col">
+                <div id="about_img">
+                    <img src="Resources_Pic/about2.png">
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <!--contact section-->
+
+    <div id="contact">
+        <h1 id="section">Contact</h1>
+        <div id="contact_row">
+            <div class="contact_col">
+                <div>
+                    <p>
+                        <i class="fa fa-map-marker"></i>
+                        Akurugoda, Tissamaharama, Sri lanka.
+                    </p>
+                    <p>
+                        <a href="mailto:kingfisherresort1@gmail.com">
+                            <i class="fa fa-envelope"></i>
+                            kingfisherresort1@gmail.com
+                        </a>
+                    </p>
+                    <p>
+                        <a href="tel:+94473332221">
+                        <i class="fa fa-phone-square"></i>
+                        +94473332221
+                        </a>
+                    </p>
+                        <h3>Follow Us</h3>
+                    <p id="social">
+                        <a href="#"><i class="fa fa-facebook-official fa-2x"></i></a>
+                        <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+                        <a href="#"><i class="fa fa-youtube-square fa-2x"></i></a>
+                    </p>    
+                </div>
+            </div>
+            <div class="contact_col">
+                <form>
+                    <h2>Customer Feedback</h2>
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                    <textarea rows="6" placeholder="Type massage"></textarea>
+                    <button>Give Feedback</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!--footer section-->
+
+    <div id="footer">
+        <div>
+            <h5>Copyright &copy;2024 | <a href="">Kingfisher Lake Resort</a></h5>
+        </div>
+        <div id="top">
+            <a href="#name"><i class="fa fa-chevron-circle-up"></i></a>
+        </div>
+    </div>
+
+
+    <script src="cart.js"></script> 
+</body> 
+</html>
